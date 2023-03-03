@@ -1,0 +1,46 @@
+.firstFormula .seconForumla {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+
+  /* display: flex;
+  flex-direction: column; */
+}
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.placeholders {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 200px;
+  /* grid-column: 1/1; */
+}
+.placeholderName {
+  grid-column: 1/1;
+}
+
+#mybutton2 {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  /* grid-column: 2/2; */
+  /* grid-row: 1/1; */
+}
+#mybutton2 {
+}
+#results,
+#results2 {
+  border-radius: 10px;
+  display: flex;
+  grid-column: 2/2;
+  grid-row: 1/7;
+  margin: 4px, 4px;
+  padding: 4px;
+  background-color: rgb(75, 164, 63);
+  width: 500px;
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+}
